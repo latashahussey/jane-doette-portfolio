@@ -1,0 +1,44 @@
+/* Styles for Jane Doette's Portfolio
+
+
+
+**** Fonts ***
+
+Oswald: Main header font
+Roboto:  Used for paragraphs
+
+
+**** Color Palette ***
+#02b3e4: Iris Blue | Used for Logo
+#2d3c49: Dark Green | Used for Text
+#7d97ad: Saturated Blue | Used for borders and hyperlinks
+
+
+**** Table of Contents ****
+
+- Base Styles
+- Header
+    - Logo
+    - Name & Title
+- Main
+    - Jumbotron
+    - Featured Projects
+- Footer
+
+
+*/
+
+
+/*-------BASE STYLES---------*/
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+
+/*-------HEADER--------*/
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 4em;
+}
