@@ -1,0 +1,7 @@
+
+#####################################################
+# Ignore npm & grunt generated directories/files #
+#####################################################
+node_modules
+.npm-debug.log
+tmp
