@@ -35,10 +35,54 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-
-/*-------HEADER--------*/
+h1, h3, h4 {
+    color: #2d3c49;
+    font-family: "Oswald", sans-serif;
+}
 
 h1 {
-    font-family: "Oswald", sans-serif;
-    font-size: 4em;
+  font-size: 4em;
+}
+
+h3 {
+  font-size: 2.5em;
+}
+
+h4 {
+  font-size: 1.75em;
+}
+
+a {
+  color: #7d97ad;
+  text-decoration: none;
+}
+/*-------HEADER--------*/
+
+header {
+  padding: 3em;
+}
+
+/*-------MAIN CONTENT--------*/
+.jumbotron {
+  background-image: url("../img_src/code-display-image.jpg");
+  background-size: cover;
+  min-height: 15em;
+}
+
+#featured-work {
+  padding: 3em 0;
+}
+
+#featured-work h2 {
+  padding: 1em;
+}
+
+#featured-work img {
+  cursor: pointer;
+}
+
+/*-------FOOTER--------*/
+footer .container{
+  border-top: solid 1px #7d97ad;
+  padding: 3em;
 }
