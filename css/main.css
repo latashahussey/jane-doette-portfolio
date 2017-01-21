@@ -1,4 +1,4 @@
-/* Styles for Jane Doette's Portfolio
+    /* Styles for Jane Doette's Portfolio
 
 
 
@@ -35,54 +35,84 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-h1, h3, h4 {
+h1, h3 {
     color: #2d3c49;
     font-family: "Oswald", sans-serif;
 }
 
 h1 {
-  font-size: 4em;
+    font-size: 5em;
+    padding-top: .5em;
 }
 
 h3 {
-  font-size: 2.5em;
+    font-size: 2.5em;
 }
 
 h4 {
-  font-size: 1.75em;
+    font-size: 2em;
 }
 
 a {
-  color: #7d97ad;
-  text-decoration: none;
+    color: #7d97ad;
+    text-decoration: none;
 }
+
+
 /*-------HEADER--------*/
 
 header {
-  padding: 3em;
+    padding: 3em 3em 0 3em;
 }
+
+header h4 {
+    color: #7d97ad;
+}
+
 
 /*-------MAIN CONTENT--------*/
 .jumbotron {
-  background-image: url("../img_src/code-display-image.jpg");
-  background-size: cover;
-  min-height: 15em;
+    background-image: url("../img_src/code-display-image.jpg");
+    background-size: cover;
+    min-height: 15em;
 }
 
 #featured-work {
-  padding: 3em 0;
+    padding-bottom: 3em;
 }
 
 #featured-work h2 {
-  padding: 1em;
+    color: #7d97ad;
+    padding-left: .5em;
+}
+
+#featured-work h4 {
+    color: #2d3c49;
+    font-family: "Oswald", sans-serif;
+    padding: 0 1em;
 }
 
 #featured-work img {
-  cursor: pointer;
+    cursor: pointer;
+    padding-top: 2em;
 }
 
 /*-------FOOTER--------*/
-footer .container{
-  border-top: solid 1px #7d97ad;
-  padding: 3em;
+footer .container {
+    border-top: solid 1px #7d97ad;
+    padding: 3em;
+}
+
+footer p {
+    font-size: 1.25em;
+    padding-top: 1em;
+}
+
+footer .fa {
+    color: #7d97ad;
+    padding: .5em;
+}
+
+footer .fa-heart {
+    padding: 0;
 }
