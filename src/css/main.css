@@ -29,6 +29,20 @@ Roboto:  Used for paragraphs
 */
 
 
+/*-------FONTS---------*/
+
+@font-face {
+	font-family: 'Black Jack';
+	src: url('../font/BlackJack.eot');
+	src: url('../font/BlackJack.eot?#iefix') format('embedded-opentype'),
+		url('../font/BlackJack.woff2') format('woff2'),
+		url('../font/BlackJack.woff') format('woff'),
+		url('../font/BlackJack.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
 /*-------BASE STYLES---------*/
 
 body {
@@ -42,7 +56,6 @@ h1, h3 {
 
 h1 {
     font-size: 5em;
-    padding-top: .5em;
 }
 
 h3 {
@@ -58,11 +71,15 @@ a {
     text-decoration: none;
 }
 
+a:hover, .fa:hover {
+  color: #02b3e4;
+  text-decoration: none;
+}
 
 /*-------HEADER--------*/
 
 header {
-    padding: 3em 3em 0 3em;
+    padding: 2em 3em 0 3em;
 }
 
 header h4 {
@@ -71,9 +88,14 @@ header h4 {
 
 
 /*-------MAIN CONTENT--------*/
+main {
+    border-top: solid 1px #7d97ad;
+}
+
 .jumbotron {
-    background-image: url("../img_src/code-display-image.jpg");
+    background-image: url("../../dest/img/code-display-image-large.jpg");
     background-size: cover;
+    margin-top: 3.25em;
     min-height: 15em;
 }
 
@@ -94,7 +116,7 @@ header h4 {
 
 #featured-work img {
     cursor: pointer;
-    padding-top: 2em;
+    margin-top: 2em;
 }
 
 /*-------FOOTER--------*/
@@ -104,13 +126,18 @@ footer .container {
 }
 
 footer p {
-    font-size: 1.25em;
+    font-size: 1em;
     padding-top: 1em;
+}
+
+#lh-brand {
+  font-family: 'Black Jack', cursive;
+  text-transform: lowercase;
 }
 
 footer .fa {
     color: #7d97ad;
-    padding: .5em;
+    padding: .25em;
 }
 
 footer .fa-heart {
