@@ -91,7 +91,7 @@ Roboto:  Used for paragraphs
 
     .hero {
         margin-top: 3.25em;
-        min-height: 4em;
+        max-height: 500px;
         padding-bottom: 1em;
         width: 100%;
     }
