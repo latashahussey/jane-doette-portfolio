@@ -54,11 +54,14 @@ gulp.task('responsiveImages', function () {
         width: 1000,
         quality: 60
       }],
-      'jd-logo.jpeg': [{
+      'jd-logo.jpg': [{
         width: 150,
         crop: true,
-        suffix: '-xsmall',
-        quality: 60
+        suffix: '-normal'
+      },{
+        width: 75,
+        crop: true,
+        suffix: '-small'
       }]
     }))
     .pipe(gulp.dest(paths.imgDest));
